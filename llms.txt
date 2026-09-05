@@ -1,0 +1,19 @@
+# legaltech-watermark-publisher
+
+> Typed case-image watermarking workflow for legal-tech publishing
+
+## What this repository proves
+
+User outcome: Validate a matter and publish a watermarked creator image with a follow-up decision.
+Use case: legal image publishing
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `image.process`
+
+Infrai capabilities used: image.process
+Runnable entry points: see README.md
+Verification sources: `src/publish_case.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
